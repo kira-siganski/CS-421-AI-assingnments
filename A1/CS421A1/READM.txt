@@ -1,0 +1,16 @@
+to compile and run:
+g++ Source.cpp
+./a.out
+
+I ran this on titan so should work
+
+Input notes:
+program will ask you for each term individually
+| ?- unify_with_occurs_check(f(f(X,Y),X),f(f(V,U),g(U,Y))).
+
+would look like:
+
+f(f(X,Y),X)
+f(f(V,U),g(U,Y))
+
+for the input

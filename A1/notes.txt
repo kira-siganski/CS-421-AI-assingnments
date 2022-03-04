@@ -1,0 +1,33 @@
+implement unification alg
+- needs to verify variables as Uppercase
+- needs to verify funcs as lowercase
+- needs a unification check func
+	- if true print result of unification then yes
+	- if false print results of unificatoin but end where it stops ?
+
+- needs same behaviour as unify_with_occurs_check
+
+input is only upper,lowercase letters, commas and () brackets
+
+goal is to see if you can substitute enough to make expressions equal
+Variables can be subbed for other variables
+X = Y
+can substitute functions with variables
+X = f(x)
+Can substitute a variable with a function as long as the variable is not in the function
+f(X) = Y
+f(X) \= X
+
+
+unification happens in 2 directions
+X => Y
+Y <= X
+unification is possible iff both versions do not fail
+X <=> Y
+different constants cannot match
+- cannot replace constants considered "ground instance"
+- cannot substitute one variable with two different constants 
+	once bound to a constant, that variable cannot substitute anything else
+	if another variable is bound to the one bound to a constant, that new variable is also bound to the constant
+
+most general unifier is prefered

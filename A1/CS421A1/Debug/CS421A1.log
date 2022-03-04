@@ -1,0 +1,7 @@
+﻿  Source.cpp
+D:\Classes\CS Classes\CS 421 AI\A1\CS421A1\Source.cpp(87,20): warning C4018: '<': signed/unsigned mismatch
+D:\Classes\CS Classes\CS 421 AI\A1\CS421A1\Source.cpp(217,23): warning C4018: '<': signed/unsigned mismatch
+D:\Classes\CS Classes\CS 421 AI\A1\CS421A1\Source.cpp(257,23): warning C4018: '<': signed/unsigned mismatch
+D:\Classes\CS Classes\CS 421 AI\A1\CS421A1\Source.cpp(296,20): warning C4018: '<': signed/unsigned mismatch
+D:\Classes\CS Classes\CS 421 AI\A1\CS421A1\Source.cpp(312,20): warning C4018: '<': signed/unsigned mismatch
+  CS421A1.vcxproj -> D:\Classes\CS Classes\CS 421 AI\A1\CS421A1\Debug\CS421A1.exe
